@@ -1,0 +1,42 @@
+{
+  "name": "britecore-iws",
+  "homepage": "https://github.com/umrashrf/britecore-iws",
+  "authors": [
+    "Umair Ashraf <umrashrf@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "knockout": "^3.4.0"
+  },
+  "devDependencies": {
+    "less": "^2.7.1"
+  },
+  "install": {
+    "path": "libs",
+    "sources": {
+      "jquery": [
+        "bower_components/jquery/dist/jquery.js"
+      ],
+      "less": [
+        "bower_components/less/dist/less.js"
+      ],
+      "bootstrap": [
+        "bower_components/bootstrap/dist/css/bootstrap.css",
+        "bower_components/bootstrap/dist/js/bootstrap.js"
+      ],
+      "knockout": [
+        "bower_components/knockout/dist/knockout.js"
+      ]
+    }
+  }
+}
